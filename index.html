@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather App</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" defer src="script.js"></script>
+</head>
+<body id="body">
+<div id="container">
+	<form id="search">
+		<input type="text" placeholder="Search the city...">
+	</form>
+	<div class="timezone">
+		<h3 id="city">Welcome to the Weather App</h3>
+		<span id="time"></span> - <span id="date"></span>
+	</div>
+	<div class="weather-report">
+		<h1 id="temp"></h1>
+		<img id="weather-icon">
+		<span id="summary">Get latest weather updates.</span>
+	</div>
+	<hr>
+	<div class="other-weather-report">
+		<table>
+			<tr>
+				<th>Humidity</th>
+				<th>Wind</th>
+				<th>UV Index</th>
+			</tr>
+			<tr>
+				<td id="humidity">-</td>
+				<td id="wind">-</td>
+				<td id="uv-index">-</td>
+			</tr>
+		</table>
+	</div>
+</div>
+</body>
+</html>
